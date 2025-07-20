@@ -49,7 +49,7 @@
       "id": "6",
       "name": "Education Fund",
       "targetAmount": 20000,
-      "savedAmount": 5000,
+      "savedAmount": 6000,
       "category": "Education",
       "deadline": "2028-01-01",
       "createdAt": "2024-04-20"
@@ -67,7 +67,7 @@
       "id": "8",
       "name": "New Phone",
       "targetAmount": 1200,
-      "savedAmount": 0,
+      "savedAmount": 1500,
       "category": "Electronics",
       "deadline": "2025-01-31",
       "createdAt": "2024-07-10"
