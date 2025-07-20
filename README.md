@@ -2,7 +2,7 @@
 # Your local README.md content
 =======
 # Remote README.md content
->>>>>>> origin/main
+>>>>>>>main
 
 
 Smart Goal Planner
