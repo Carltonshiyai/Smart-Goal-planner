@@ -1,0 +1,31 @@
+{
+  "goals": [
+    {
+      "id": "8ef2",
+      "name": "Laptop",
+      "targetAmount": 377777,
+      "savedAmount": 3777,
+      "category": "gadget",
+      "deadline": "2025-03-19",
+      "createdAt": "2025-07-29"
+    },
+    {
+      "id": "fc75",
+      "name": "Car",
+      "targetAmount": 6789292929,
+      "savedAmount": 87678,
+      "category": "Vehicle",
+      "deadline": "2024-08-08",
+      "createdAt": "2025-07-29"
+    },
+    {
+      "id": "b893",
+      "name": "Milk",
+      "targetAmount": 699,
+      "savedAmount": 400,
+      "category": "Food",
+      "deadline": "2024-11-20",
+      "createdAt": "2025-07-29"
+    }
+  ]
+}

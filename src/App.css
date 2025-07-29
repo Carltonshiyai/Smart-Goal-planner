@@ -1,0 +1,144 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #080505;
+
+  min-height: 100vh;
+  color: rgb(247, 203, 127);
+}
+
+
+.overlay {
+  background-color: white;
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  background:white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(3px);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #2196f3;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  background: linear-gradient(45deg, #2196f3, #21cbf3);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #1976d2, #00acc1);
+}
+
+.goal-card {
+  background: #f5faff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.goal-card h3 {
+  margin-top: 0;
+  color: #1565c0;
+}
+
+.goal-card .category {
+  font-style: italic;
+  color: #555;
+}
+
+.progress-bar {
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+  height: 16px;
+  margin-top: 0.5rem;
+}
+
+.progress-fill {
+  background-color: #66bb6a;
+  height: 100%;
+}
+
+.warning {
+  background-color: #fff3cd;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-left: 6px solid #ff9800;
+  font-weight: bold;
+}
+
+.overdue {
+  background-color: #ffcdd2;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-left: 6px solid #f44336;
+  font-weight: bold;
+}
+
+.overview {
+  background-color: #a8b9c7;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: center;
+
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+
+  input, select, button {
+    font-size: 1rem;
+  }
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
